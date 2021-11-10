@@ -6,12 +6,34 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
 h1 {
-    background-color: #aeb6cf;
+    background-color: #7ea4b3;
     text-align: center;
     font-size: 28px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-transform: uppercase;
     
+}
+
+h6 {
+    background-color: #7ea4b3;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+button {
+    border-radius: 25px;
+    background-color: #aec6cf;
+    color:#aecfc8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
